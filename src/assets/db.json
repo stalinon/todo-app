@@ -1,0 +1,18 @@
+{
+  "colors": [
+    { "id": 1, "name": "pink" },
+    { "id": 2, "name": "green" },
+    { "id": 3, "name": "blue" },
+    { "id": 4, "name": "red" },
+    { "id": 5, "name": "grey" },
+    { "id": 6, "name": "purple" },
+    { "id": 7, "name": "yellow" }
+  ],
+  "lists": [
+    { "id": 1, "name": "Покупки", "colorId": 1 },
+    { "id": 2, "name": "Фронтенд", "colorId": 2 },
+    { "id": 3, "name": "Фильмы и сериалы", "colorId": 3 },
+    { "id": 4, "name": "Книги", "colorId": 4 },
+    { "id": 5, "name": "Личное", "colorId": 5 }
+  ]
+}

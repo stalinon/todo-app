@@ -1,0 +1,28 @@
+.badge {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+
+  &--green {
+    background-color: #42b883;
+  }
+  &--red {
+    background-color: #b3505d;
+  }
+  &--blue {
+    background-color: #6f75c2;
+  }
+  &--pink {
+    background-color: #c26fb0;
+  }
+  &--grey {
+    background-color: #777777;
+  }
+  &--purple {
+    background-color: #a356c2;
+  }
+  &--yellow {
+    background-color: #aec06e;
+  }
+}
