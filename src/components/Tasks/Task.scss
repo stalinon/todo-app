@@ -1,0 +1,83 @@
+.tasks {
+  &__title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #64c4ed;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f2f2f2;
+
+    &:hover {
+      i {
+        opacity: 0.5;
+      }
+    }
+
+    i {
+      cursor: pointer;
+      font-size: 15px;
+      color: #d4d4d4;
+      opacity: 0;
+      margin-left: 20px;
+    }
+  }
+
+  &__items {
+    margin-top: 30px;
+    &__row {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin-left: 15px;
+        font-size: 16px;
+      }
+
+      .checkbox {
+        margin: 10px;
+
+        label {
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 2px solid #e8e8e8;
+          border-radius: 50%;
+          width: 20px;
+          height: 20px;
+        }
+
+        input {
+          display: none;
+        }
+
+        input:checked + label {
+          background-color: #4dd599;
+          border-color: #4dd599;
+          .fa-check {
+            opacity: 1;
+            color: #fff;
+          }
+        }
+
+        .fa-check {
+          opacity: 0;
+          width: 15px;
+          height: 15px;
+          margin-left: 3px;
+        }
+      }
+
+      &:hover {
+        .fa-check {
+          opacity: 1;
+          color: #e8e8e8;
+        }
+        input + label {
+          background-color: #f2f2f2;
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import List from "./components/List";
 import AddButtonList from "./components/AddButtonList";
+import Tasks from "./components/Tasks";
 
 import db from "./assets/db.json";
 
@@ -40,7 +41,9 @@ function App() {
         <List items={lists} isRemovable={true} onRemove={onRemoveItem} />
         <AddButtonList onAdd={onAddList} colors={db.colors} />
       </div>
-      <div className="todo__tasks"></div>
+      <div className="todo__tasks">
+        <Tasks />
+      </div>
     </div>
   );
 }
